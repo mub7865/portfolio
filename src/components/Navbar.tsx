@@ -1,9 +1,10 @@
 'use client'
 import React from 'react'
-import { caveat } from '@/font'
 import Link from 'next/link'
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+import Image from 'next/image';
+import Logo from '@/app/assets/logp.png'
 function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
@@ -15,8 +16,13 @@ function Navbar() {
     <div className='sticky top-0'>
       <header className='relative w-full h-auto p-[1.5rem_1rem_1.5rem_1rem] bg-[#0a0908] shadow-sm shadow-[#251e16]'>
         <nav className='h-[2.25rem] mx-[1.6875rem] flex justify-between'>
-          <div>
-            <Link href='/'><p className={`${caveat.className} text-[1.875rem] font-semibold text-white`} ><span className='text-[#A9927D]'>T</span>aha <span className='text-[#A9927D]'>A</span>hmed</p></Link>
+          <div className='mt-[-28px]'>
+
+               <Image src={Logo} alt='My Logo' className='h-[95px] w-[95px] '
+               />
+            {/* <Link href='/'><p className={`${caveat.className} text-[1.875rem] font-semibold text-white`} >
+              <span className='text-[#5170ab] text-5xl'>U</span>baid <span className='text-[#5170ab] text-5xl'>R</span>aza</p>
+            </Link> */}
           </div>
 
           {isOpen == true ? (

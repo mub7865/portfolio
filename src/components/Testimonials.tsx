@@ -8,10 +8,10 @@ function Testimonials() {
       <div className="text-white text-center">
         <h4 className="text-white text-4xl lg:text-5xl font-[Caveat] ">
           <span>
-            <span className="text-[#a9927d]">W</span>hat{' '}
-            <span className="text-[#a9927d]">O</span>ther{' '}
-            <span className="text-[#a9927d]">P</span>eople{' '}
-            <span className="text-[#a9927d]">S</span>ay
+            <span className="text-[#5170ab]">W</span>hat{' '}
+            <span className="text-[#5170ab]">O</span>ther{' '}
+            <span className="text-[#5170ab]">P</span>eople{' '}
+            <span className="text-[#5170ab]">S</span>ay
           </span>
         </h4>
 
@@ -25,7 +25,7 @@ function Testimonials() {
             ].map((person, index) => (
               <div
                 key={index}
-                className="mx-auto py-8 px-2 md:px-4 border-t-[3px] border-solid border-light-beige rounded-2xl select-none bg-[#1a1a1a] cursor-grab flex flex-col justify-center items-center"
+                className="mx-auto py-8 px-2 md:px-4 border-t-[3px] border-solid border-light-beige rounded-2xl select-none bg-[#1a2a3d] cursor-grab flex flex-col justify-center items-center"
               >
                 <div className="w-[8rem] border-[3px] border-solid border-text-[#a9927d] rounded-full p-1">
                   <Image

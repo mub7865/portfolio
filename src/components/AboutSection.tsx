@@ -6,14 +6,15 @@ import Image from 'next/image'
 function AboutSection() {
   return (
     <>
-      <section id='about' className='w-full py-[160px] px-10 bg-[#222222] flex flex-col md:flex-row justify-center'>
+      <section id='about' className='w-full py-[160px] px-10 bg-[#2e3343] flex flex-col md:flex-row justify-center'>
         
         <div className='mx-auto w-[50%] px-[16px] flex flex-col items-start text-left'>
-          <p className={`${caveat.className} text-[48px]`}>Taha Ahmed</p>
+          <p className={`${caveat.className} text-[48px] text-[#d8e5fb]`}>Muhammad Ubaid Raza</p>
           
-          <p className={`${caveat.className} text-[30px] mt-2 mb-6 text-light-beige text-center lg:text-start text-3xl text-[#a9927d]`}>Freelance Web Developer</p>
+          <p className={`${caveat.className} text-[30px] mt-2 mb-6 text-light-beige text-center lg:text-start text-3xl text-[#f7f9fe]`}>Freelance Web Developer</p>
           
-          <p className='text-[18px] mb-8'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, dolorum odio magni possimus corrupti molestiae labore voluptatum ut autem deleniti facilis tempora commodi dolores debitis repellendus excepturi nisi? Quisquam suscipit iste facere molestiae saepe voluptates.</p>
+          <p className='text-[18px] mb-8 text-[#d8e5fb] '>
+          "Hi! I'm a passionate front-end developer with a strong foundation in HTML, CSS, TypeScript, and frameworks like Next.js and Node.js. I enjoy creating responsive, user-friendly websites that offer seamless user experiences. With a keen eye for design and detail, I bring concepts to life, ensuring that each project meets the latest web standards and best practices. I'm always eager to learn new technologies and improve my skills to build even better web experiences            </p>
         
           <Button textName={"Contact Me"}/> 
         </div>
@@ -23,7 +24,7 @@ function AboutSection() {
         </div>
       </section>
       
-      <section className="w-full py-5 px-5 mx-auto flex justify-center items-center gap-16 bg-[#1a1a1a] overflow-hidden">
+      <section className="w-full py-5 px-5 mx-auto flex justify-center items-center gap-16 bg-[#1a2a3d] overflow-hidden">
         <Image src={"/myImage/html.png"} alt='picture' width={96} height={96}></Image>
         <Image src={"/myImage/css.png"} alt='picture' width={96} height={96}></Image>
         <Image src={"/myImage/typescript.png"} alt='picture' width={70} height={70}></Image>
