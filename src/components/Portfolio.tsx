@@ -6,7 +6,7 @@ function Portfolio() {
   return (
     <>
       <section id="portfolio" className="w-full py-36 px-8 text-center bg-[#0a0908]">
-        <h4 className={`${caveat.className} text-white text-4xl lg:text-5xl text-[#5170ab]`}>
+        <h4 className={`${caveat.className}  text-4xl lg:text-5xl text-[#5170ab]`}>
           <span className="text-[#5170ab]">M</span>y{" "}
           <span className="text-[#5170ab]">L</span>ast{" "}
           <span className="text-[#5170ab]">W</span>ork

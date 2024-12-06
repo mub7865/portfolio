@@ -18,34 +18,30 @@ function Navbar() {
         <nav className='h-[2.25rem] mx-[1.6875rem] flex justify-between'>
           <div className='mt-[-28px]'>
 
-               <Image src={Logo} alt='My Logo' className='h-[95px] w-[95px] '
-               />
-            {/* <Link href='/'><p className={`${caveat.className} text-[1.875rem] font-semibold text-white`} >
-              <span className='text-[#5170ab] text-5xl'>U</span>baid <span className='text-[#5170ab] text-5xl'>R</span>aza</p>
-            </Link> */}
+               <Image src={Logo} alt='My Logo' className='h-[95px] w-[95px] '/>
           </div>
 
           {isOpen == true ? (
             <div>
-              <ul className='absolute p-[40px] top-0 left-0 w-full h-screen bg-[#a9927d] flex flex-col items-center justify-center gap-[1.875rem]'>
+              <ul className='absolute p-[40px] top-[100px] left-0 w-full h-screen backdrop-blur-md bg-black/10 flex flex-col items-center justify-center gap-[1.875rem]'>
                 <IoClose className='absolute top-0 right-0 mr-[40px] mt-[30px] cursor-pointer' size={35} onClick={ShowOption} />
-                <Link href='/'><li className='text-[1.125rem] text-[black] font-semibold tracking-[.0563rem] hover:text-[#7d674c]'>Home</li></Link>
-                <Link href='#about'><li className='text-[1.125rem] text-[black] font-semibold tracking-[.0563rem] hover:text-[#7d674c]'>About</li></Link>
-                <Link href='#portfolio'><li className='text-[1.125rem] text-[black] font-semibold tracking-[.0563rem] hover:text-[#7d674c]'>Portfolio</li></Link>
-                <Link href='#services'><li className='text-[1.125rem] text-[black] font-semibold tracking-[.0563rem] hover:text-[#7d674c]'>Services</li></Link>
-                <Link href='#testimonials'><li className='text-[1.125rem] text-[black] font-semibold tracking-[.0563rem] hover:text-[#7d674c]'>Testimonials</li></Link>
-                <Link href='#contact'><li className='text-[1.125rem] text-[black] font-semibold tracking-[.0563rem] hover:text-[#7d674c]'>Contact</li></Link>
+                <Link href='/'><li className='text-[1.125rem] text-[#d8e5fb] font-semibold tracking-[.0563rem] hover:text-[#5170ab]'>Home</li></Link>
+                <Link href='#about'><li className='text-[1.125rem] text-[#d8e5fb] font-semibold tracking-[.0563rem] hover:text-[#5170ab]'>About</li></Link>
+                <Link href='#portfolio'><li className='text-[1.125rem] text-[#d8e5fb] font-semibold tracking-[.0563rem] hover:text-[#5170ab]'>Portfolio</li></Link>
+                <Link href='#services'><li className='text-[1.125rem] text-[#d8e5fb] font-semibold tracking-[.0563rem] hover:text-[#5170ab]'>Services</li></Link>
+                <Link href='#testimonials'><li className='text-[1.125rem] text-[#d8e5fb] font-semibold tracking-[.0563rem] hover:text-[#5170ab]'>Testimonials</li></Link>
+                <Link href='#contact'><li className='text-[1.125rem] text-[#d8e5fb] font-semibold tracking-[.0563rem] hover:text-[#5170ab]'>Contact</li></Link>
               </ul>
             </div>
 
           ) : (
             <ul className='hidden lg:h-full lg:flex lg:items-center lg:gap-[1.875rem] '>
-              <Link href='/'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#A9927D]'>Home</li></Link>
-              <Link href='/#about'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#A9927D]'>About</li></Link>
-              <Link href='#portfolio'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#A9927D]'>Portfolio</li></Link>
-              <Link href='#services'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#A9927D]'>Services</li></Link>
-              <Link href='#testimonials'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#A9927D]'>Testimonials</li></Link>
-              <Link href='#contact'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#A9927D]'>Contact</li></Link>
+              <Link href='/'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#5170ab]'>Home</li></Link>
+              <Link href='/#about'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#5170ab]'>About</li></Link>
+              <Link href='#portfolio'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#5170ab]'>Portfolio</li></Link>
+              <Link href='#services'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#5170ab]'>Services</li></Link>
+              <Link href='#testimonials'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#5170ab]'>Testimonials</li></Link>
+              <Link href='#contact'><li className='text-[1.125rem] text-[white] tracking-[.0563rem] hover:text-[#5170ab]'>Contact</li></Link>
             </ul>
           )}
 

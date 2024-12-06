@@ -37,7 +37,7 @@ function Testimonials() {
                   />
                 </div>
                 <p className="mt-4">{person.title}</p>
-                <p className="my-4 text-[#a9927d]">{person.role}</p>
+                <p className="my-4 text-[#5170ab]">{person.role}</p>
                 <p className="w-[95%] md:w-[97%] mx-auto mb-6 leading-7 text-center">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, dolorum odio magni possimus corrupti molestiae labore voluptatum ut autem
                 </p>

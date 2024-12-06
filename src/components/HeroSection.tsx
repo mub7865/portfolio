@@ -15,9 +15,11 @@ function HeroSection() {
 
         <p className='text-[2rem] text-[#5170ab]'>I'm A Front End Web Developer</p>
 
-        <p className='mt-[1.25rem] mb-[2rem] text-[1.125rem] text-[#d8e5fb]'>I can build user interface for web sites and applications with React JS and Next.Js<br />I love the front end development.</p>
+        <p className='mt-[1.25rem] mb-[2rem] text-[1.125rem] text-[#d8e5fb]'>
+          I can build user interface for web sites and applications with React JS and Next.Js<br />I love the front end development.</p>
 
         <Button textName={"Hire Me"}/>
+
 
         <div className='mt-[3.125rem] m-auto sm:w-[60%] lg:w-[30%] lg:px-[1.5rem] py-1 flex gap-[3.125rem] justify-center items-center lg:h-[52px] bg-[#678cd7] rounded-full'>
           <FaFacebookF  size={30} color='black' className='cursor-pointer'/>

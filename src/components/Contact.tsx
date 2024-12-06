@@ -81,7 +81,7 @@ function Contact() {
                 />
               </div>
 
-              <Link href="#home" className="py-3 px-8 rounded-lg text-lg text-white bg-[#3b547f] transition hover:bg-[#7d674c]  mt-4">
+              <Link href="#home" className="py-3 px-8 rounded-lg text-lg text-white bg-[#3b547f] transition hover:bg-[#678cd7]  mt-4">
                 Send message
               </Link>
             </form>

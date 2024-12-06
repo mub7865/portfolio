@@ -14,7 +14,8 @@ function AboutSection() {
           <p className={`${caveat.className} text-[30px] mt-2 mb-6 text-light-beige text-center lg:text-start text-3xl text-[#f7f9fe]`}>Freelance Web Developer</p>
           
           <p className='text-[18px] mb-8 text-[#d8e5fb] '>
-          "Hi! I'm a passionate front-end developer with a strong foundation in HTML, CSS, TypeScript, and frameworks like Next.js and Node.js. I enjoy creating responsive, user-friendly websites that offer seamless user experiences. With a keen eye for design and detail, I bring concepts to life, ensuring that each project meets the latest web standards and best practices. I'm always eager to learn new technologies and improve my skills to build even better web experiences            </p>
+           Hi! I'm a passionate front-end developer with a strong foundation in HTML, CSS, TypeScript, and frameworks like Next.js and Node.js. I enjoy creating responsive, user-friendly websites that offer seamless user experiences. With a keen eye for design and detail, I bring concepts to life, ensuring that each project meets the latest web standards and best practices. I'm always eager to learn new technologies and improve my skills to build even better web experiences.
+          </p>
         
           <Button textName={"Contact Me"}/> 
         </div>

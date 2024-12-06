@@ -1,3 +1,4 @@
+import { caveat } from "@/font";
 import React from "react";
 import { FaBullhorn, FaPaintBrush, FaCode, FaSearch } from "react-icons/fa"; // Import icons from react-icons
 
@@ -6,16 +7,14 @@ function Services() {
     <>
       <section id="services" className="py-40 px-2 md:px-8 bg-[#2e3343]">
         <div className="text-center">
-          <h4 className="text-white text-4xl lg:text-5xl font-[Caveat] text-[#d8e5fb]">
-            <span className="">
+          <h4 className=" text-4xl lg:text-5xl font-[Caveat] text-[#d8e5fb]">
               <span className="text-light-beige capitalize">w</span>hat{" "}
               <span className="text-light-beige capitalize">I</span>{" "}
               <span className="text-light-beige capitalize">d</span>o{" "}
               <span className="text-light-beige capitalize">f</span>or{" "}
               <span className="text-light-beige capitalize">c</span>lients
-            </span>
           </h4>
-          <p className="w-[90%] lg:w-[80%] mt-6 mx-auto text-white text-sm lg:text-lg text-[#d8e5fb] leading-6">
+          <p className="w-[90%] lg:w-[80%] mt-6 mx-auto  text-sm lg:text-lg text-[#d8e5fb] leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
             deserunt laudantium officia fuga ipsam quasi corrupti in numquam
             dolor libero explicabo, inventore aperiam, commodi et!
